@@ -23,6 +23,7 @@ public class UserSession {
 		userHomePage = new UserHomePage(this);
 		userSettings = new UserSettings(this);
 		userProfile = new UserProfile(this);
+		messenger = new Messenger(this);
 		state = loginPage; 
 	}
 	
